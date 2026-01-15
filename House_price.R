@@ -32,7 +32,7 @@ library(nortest)
 #1. Import House Price Data. Check the structure of the data.
 
 #Load the dataset
-house_pr<-read.csv(file.choose(), header = TRUE)
+house_pr<-read.csv("House_Price_Data.csv", header = TRUE)
 summary(house_pr) #Summarizing data and checking for missing values
 str(house_pr) # Check the structure of the dataset
 head(house_pr) # View first 6 rows
